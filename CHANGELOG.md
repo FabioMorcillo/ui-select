@@ -1,3 +1,113 @@
+<a name="0.23.0"></a>
+# [0.23.0](https://github.com/angular-ui/ui-select/compare/v0.19.8...v0.23.0) (2018-01-09)
+
+
+### Bug Fixes
+
+* **$selectMultiple:** allow user to override `getPlaceholder()` Behavior ([3b36b0a](https://github.com/angular-ui/ui-select/commit/3b36b0a)), closes [#1796](https://github.com/angular-ui/ui-select/issues/1796)
+* **drop-down:** close drop-down regardless of `stopPropagation()` calls ([6f19d5f](https://github.com/angular-ui/ui-select/commit/6f19d5f))
+* **spinner:** add the refresh spinner to the select-multiple template ([29f41e4](https://github.com/angular-ui/ui-select/commit/29f41e4)), closes [#1985](https://github.com/angular-ui/ui-select/issues/1985)
+* **Travis:** Trying to fix ([295d403](https://github.com/angular-ui/ui-select/commit/295d403))
+* **uiSelectCtrl:** ensureHighlightVisible triggered with closed dropdown ([503c089](https://github.com/angular-ui/ui-select/commit/503c089))
+* **uiSelectCtrl:** open dropdown when clicking on caret ([ceabb1e](https://github.com/angular-ui/ui-select/commit/ceabb1e)), closes [#1797](https://github.com/angular-ui/ui-select/issues/1797) [#1862](https://github.com/angular-ui/ui-select/issues/1862)
+
+### Features
+
+* **choices:** allow user select group header ([bfff80b](https://github.com/angular-ui/ui-select/commit/bfff80b))
+* **choices:** allow user select group header ([ad66bf7](https://github.com/angular-ui/ui-select/commit/ad66bf7))
+* **choices:** allow user select group header ([1f5d245](https://github.com/angular-ui/ui-select/commit/1f5d245))
+* **Header & Footer:** Add header & footer to the dropdown list. ([96771a2](https://github.com/angular-ui/ui-select/commit/96771a2))
+
+
+
+<a name="0.22.0"></a>
+# [0.22.0](https://github.com/angular-ui/ui-select/compare/v0.19.8...v0.22.0) (2018-01-09)
+
+
+### Bug Fixes
+
+* **$selectMultiple:** allow user to override `getPlaceholder()` Behavior ([3b36b0a](https://github.com/angular-ui/ui-select/commit/3b36b0a)), closes [#1796](https://github.com/angular-ui/ui-select/issues/1796)
+* **drop-down:** close drop-down regardless of `stopPropagation()` calls ([6f19d5f](https://github.com/angular-ui/ui-select/commit/6f19d5f))
+* **spinner:** add the refresh spinner to the select-multiple template ([29f41e4](https://github.com/angular-ui/ui-select/commit/29f41e4)), closes [#1985](https://github.com/angular-ui/ui-select/issues/1985)
+* **Travis:** Trying to fix ([295d403](https://github.com/angular-ui/ui-select/commit/295d403))
+* **uiSelectCtrl:** ensureHighlightVisible triggered with closed dropdown ([503c089](https://github.com/angular-ui/ui-select/commit/503c089))
+* **uiSelectCtrl:** open dropdown when clicking on caret ([ceabb1e](https://github.com/angular-ui/ui-select/commit/ceabb1e)), closes [#1797](https://github.com/angular-ui/ui-select/issues/1797) [#1862](https://github.com/angular-ui/ui-select/issues/1862)
+
+### Features
+
+* **choices:** allow user select group header ([bfff80b](https://github.com/angular-ui/ui-select/commit/bfff80b))
+* **choices:** allow user select group header ([ad66bf7](https://github.com/angular-ui/ui-select/commit/ad66bf7))
+* **choices:** allow user select group header ([1f5d245](https://github.com/angular-ui/ui-select/commit/1f5d245))
+* **Header & Footer:** Add header & footer to the dropdown list. ([96771a2](https://github.com/angular-ui/ui-select/commit/96771a2))
+
+
+
+<a name="0.21.0"></a>
+# [0.21.0](https://github.com/angular-ui/ui-select/compare/v0.19.8...v0.21.0) (2018-01-09)
+
+
+### Bug Fixes
+
+* **$selectMultiple:** allow user to override `getPlaceholder()` Behavior ([3b36b0a](https://github.com/angular-ui/ui-select/commit/3b36b0a)), closes [#1796](https://github.com/angular-ui/ui-select/issues/1796)
+* **drop-down:** close drop-down regardless of `stopPropagation()` calls ([6f19d5f](https://github.com/angular-ui/ui-select/commit/6f19d5f))
+* **spinner:** add the refresh spinner to the select-multiple template ([29f41e4](https://github.com/angular-ui/ui-select/commit/29f41e4)), closes [#1985](https://github.com/angular-ui/ui-select/issues/1985)
+* **Travis:** Trying to fix ([295d403](https://github.com/angular-ui/ui-select/commit/295d403))
+* **uiSelectCtrl:** ensureHighlightVisible triggered with closed dropdown ([503c089](https://github.com/angular-ui/ui-select/commit/503c089))
+* **uiSelectCtrl:** open dropdown when clicking on caret ([ceabb1e](https://github.com/angular-ui/ui-select/commit/ceabb1e)), closes [#1797](https://github.com/angular-ui/ui-select/issues/1797) [#1862](https://github.com/angular-ui/ui-select/issues/1862)
+
+### Features
+
+* **choices:** allow user select group header ([bfff80b](https://github.com/angular-ui/ui-select/commit/bfff80b))
+* **choices:** allow user select group header ([ad66bf7](https://github.com/angular-ui/ui-select/commit/ad66bf7))
+* **choices:** allow user select group header ([1f5d245](https://github.com/angular-ui/ui-select/commit/1f5d245))
+* **Header & Footer:** Add header & footer to the dropdown list. ([96771a2](https://github.com/angular-ui/ui-select/commit/96771a2))
+
+
+
+<a name="0.20.0"></a>
+# [0.20.0](https://github.com/angular-ui/ui-select/compare/v0.19.8...v0.20.0) (2018-01-09)
+
+
+### Bug Fixes
+
+* **$selectMultiple:** allow user to override `getPlaceholder()` Behavior ([3b36b0a](https://github.com/angular-ui/ui-select/commit/3b36b0a)), closes [#1796](https://github.com/angular-ui/ui-select/issues/1796)
+* **drop-down:** close drop-down regardless of `stopPropagation()` calls ([6f19d5f](https://github.com/angular-ui/ui-select/commit/6f19d5f))
+* **spinner:** add the refresh spinner to the select-multiple template ([29f41e4](https://github.com/angular-ui/ui-select/commit/29f41e4)), closes [#1985](https://github.com/angular-ui/ui-select/issues/1985)
+* **Travis:** Trying to fix ([295d403](https://github.com/angular-ui/ui-select/commit/295d403))
+* **uiSelectCtrl:** ensureHighlightVisible triggered with closed dropdown ([503c089](https://github.com/angular-ui/ui-select/commit/503c089))
+* **uiSelectCtrl:** open dropdown when clicking on caret ([ceabb1e](https://github.com/angular-ui/ui-select/commit/ceabb1e)), closes [#1797](https://github.com/angular-ui/ui-select/issues/1797) [#1862](https://github.com/angular-ui/ui-select/issues/1862)
+
+### Features
+
+* **choices:** allow user select group header ([bfff80b](https://github.com/angular-ui/ui-select/commit/bfff80b))
+* **choices:** allow user select group header ([ad66bf7](https://github.com/angular-ui/ui-select/commit/ad66bf7))
+* **choices:** allow user select group header ([1f5d245](https://github.com/angular-ui/ui-select/commit/1f5d245))
+* **Header & Footer:** Add header & footer to the dropdown list. ([96771a2](https://github.com/angular-ui/ui-select/commit/96771a2))
+
+
+
+<a name="0.19.8"></a>
+## [0.19.8](https://github.com/angular-ui/ui-select/compare/v0.19.8...v0.19.8) (2018-01-09)
+
+
+### Bug Fixes
+
+* **$selectMultiple:** allow user to override `getPlaceholder()` Behavior ([3b36b0a](https://github.com/angular-ui/ui-select/commit/3b36b0a)), closes [#1796](https://github.com/angular-ui/ui-select/issues/1796)
+* **drop-down:** close drop-down regardless of `stopPropagation()` calls ([6f19d5f](https://github.com/angular-ui/ui-select/commit/6f19d5f))
+* **spinner:** add the refresh spinner to the select-multiple template ([29f41e4](https://github.com/angular-ui/ui-select/commit/29f41e4)), closes [#1985](https://github.com/angular-ui/ui-select/issues/1985)
+* **Travis:** Trying to fix ([295d403](https://github.com/angular-ui/ui-select/commit/295d403))
+* **uiSelectCtrl:** ensureHighlightVisible triggered with closed dropdown ([503c089](https://github.com/angular-ui/ui-select/commit/503c089))
+* **uiSelectCtrl:** open dropdown when clicking on caret ([ceabb1e](https://github.com/angular-ui/ui-select/commit/ceabb1e)), closes [#1797](https://github.com/angular-ui/ui-select/issues/1797) [#1862](https://github.com/angular-ui/ui-select/issues/1862)
+
+### Features
+
+* **choices:** allow user select group header ([bfff80b](https://github.com/angular-ui/ui-select/commit/bfff80b))
+* **choices:** allow user select group header ([ad66bf7](https://github.com/angular-ui/ui-select/commit/ad66bf7))
+* **choices:** allow user select group header ([1f5d245](https://github.com/angular-ui/ui-select/commit/1f5d245))
+* **Header & Footer:** Add header & footer to the dropdown list. ([96771a2](https://github.com/angular-ui/ui-select/commit/96771a2))
+
+
+
 <a name="0.19.8"></a>
 ## [0.19.8](https://github.com/angular-ui/ui-select/compare/v0.19.7...v0.19.8) (2017-04-15)
 
