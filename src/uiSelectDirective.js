@@ -28,8 +28,15 @@ uis.directive('uiSelect',
       //Multiple or Single depending if multiple attribute presence
       if (angular.isDefined(tAttrs.multiple))
         tElement.append('<ui-select-multiple/>').removeAttr('multiple');
-      else
-        tElement.append('<ui-select-single/>');
+      else {
+          if (angular.isDefined(tAttrs.keyEnter)) {
+            tElement.append('<ui-select-single key-enter="'+tAttrs.keyEnter+'" />');  
+          } else {
+              tElement.append('<ui-select-single/>');  
+          }
+        
+      }
+        
 
       if (tAttrs.inputId)
         tElement.querySelectorAll('input.ui-select-search')[0].id = tAttrs.inputId;

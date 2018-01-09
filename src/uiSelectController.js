@@ -5,8 +5,8 @@
  * put as much logic in the controller (instead of the link functions) as possible so it can be easily tested.
  */
 uis.controller('uiSelectCtrl',
-  ['$scope', '$element', '$timeout', '$filter', '$$uisDebounce', 'uisRepeatParser', 'uiSelectMinErr', 'uiSelectConfig', '$parse', '$injector', '$window',
-  function($scope, $element, $timeout, $filter, $$uisDebounce, RepeatParser, uiSelectMinErr, uiSelectConfig, $parse, $injector, $window) {
+  ['$scope', '$element', '$timeout', '$filter', '$$uisDebounce', 'uisRepeatParser', 'uiSelectMinErr', 'uiSelectConfig', '$parse', '$injector', '$window', '$attrs',
+  function($scope, $element, $timeout, $filter, $$uisDebounce, RepeatParser, uiSelectMinErr, uiSelectConfig, $parse, $injector, $window, $attrs) {
 
   var ctrl = this;
 
@@ -598,10 +598,21 @@ uis.controller('uiSelectCtrl',
         break;
       case KEY.ENTER:
         if(ctrl.open && (ctrl.tagging.isActivated || ctrl.activeIndex >= 0)){
-          ctrl.select(ctrl.items[ctrl.activeIndex], ctrl.skipFocusser); // Make sure at least one dropdown item is highlighted before adding if not in tagging mode
+
+          ctrl.select(ctrl.items[ctrl.activeIndex], true); // Make sure at least one dropdown item is highlighted before adding if not in tagging mode
+
+          var element = document.getElementById($attrs.keyEnter);
+            
+          if (element) {
+          
+              element.focus();
+              
+          }
+
+          
         } else {
           ctrl.activate(false, true); //In case its the search input in 'multiple' mode
-        }
+        } 
         break;
       case KEY.ESC:
         ctrl.close();
@@ -617,7 +628,13 @@ uis.controller('uiSelectCtrl',
 
     var key = e.which;
 
-    if (~[KEY.ENTER,KEY.ESC].indexOf(key)){
+    /*
+      if ([KEY.ENTER].indexOf(key)) {
+            return;      
+      }
+      */
+      
+    if (~[KEY.ESC].indexOf(key)){
       e.preventDefault();
       e.stopPropagation();
     }
@@ -659,7 +676,7 @@ uis.controller('uiSelectCtrl',
       _ensureHighlightVisible();
     }
 
-    if (key === KEY.ENTER || key === KEY.ESC) {
+    if (key === KEY.ESC) {
       e.preventDefault();
       e.stopPropagation();
     }
